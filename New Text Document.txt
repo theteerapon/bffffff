@@ -1,0 +1,17 @@
+   elif msg.text in ["หัว"]:
+                ki.sendText(msg.to, "siri:groupcreator")
+            elif msg.text in ["ใครแอบ"]:
+                ki.sendText(msg.to, "setlastpoint")
+            elif msg.text in ["ออกมา"]:
+                ki.sendText(msg.to, "viewlastseen")
+            elif msg.text in ["เช็คคำสั่ง"]:
+                ki.sendText(msg.to, "set:check")
+
+
+
+
+
+cl.sendText(msg.to,mc)
+                    ki.sendText(msg.to,mc)
+                    kk.sendText(msg.to,mc)
+                    kc.sendText(msg.to,mc)
